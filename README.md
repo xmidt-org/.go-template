@@ -1,6 +1,6 @@
 # __PROJECT__
 
-Capacityset provides a set with a maximum size.
+__PROJECT__ does something good.
 
 [![Build Status](https://travis-ci.com/xmidt-org/__PROJECT__.svg?branch=master)](https://travis-ci.com/xmidt-org/__PROJECT__)
 [![codecov.io](http://codecov.io/github/xmidt-org/__PROJECT__/coverage.svg?branch=master)](http://codecov.io/github/xmidt-org/__PROJECT__?branch=master)
@@ -13,7 +13,10 @@ Capacityset provides a set with a maximum size.
 
 ## Summary
 
-Search and replace __PROJECT__ with your project name.
+Search and replace __PROJECT__ with your project name. Summary should be a 
+small paragraph explanation of what this project does.
+
+## Details
 
 Add details here.
 
