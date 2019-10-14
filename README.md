@@ -16,6 +16,18 @@ __PROJECT__ does something good.
 Search and replace __PROJECT__ with your project name. Summary should be a 
 small paragraph explanation of what this project does.
 
+## Table of Contents
+
+- [Code of Conduct](#code-of-conduct)
+- [Details](#details)
+- [Install](#install)
+- [Contributing](#contributing)
+
+## Code of Conduct
+
+This project and everyone participating in it are governed by the [XMiDT Code Of Conduct](https://xmidt.io/code_of_conduct/). 
+By participating, you agree to this Code.
+
 ## Details
 
 Add details here.
