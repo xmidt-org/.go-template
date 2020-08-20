@@ -1,7 +1,7 @@
 language: go
 
 go:
-  - 1.13.x
+  - 1.15.x
   - tip
 
 os:
@@ -12,12 +12,19 @@ branches:
     - main
     - /^v[0-9]+\.[0-9]+\.[0-9]+$/
 
+addons:
+  sonarcloud:
+    organization: "xmidt-org"
+    token:
+      secure: "REPLACE ME"
+
 install:
   - GO111MODULE=on go mod vendor
 
 script:
   - if [ -n "$(gofmt -s -l . | grep -v "vendor")" ]; then diff -u <(echo -n) <(gofmt -d $(gofmt -s -l . | grep -v "vendor")); fi
   - GO111MODULE=on go test -v -race -coverprofile=coverage.txt ./...
+  - sonar-scanner -Dproject.settings=./.sonar-project.properties
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
