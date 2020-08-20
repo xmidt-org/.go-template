@@ -16,7 +16,7 @@ addons:
   sonarcloud:
     organization: "xmidt-org"
     token:
-      secure: "REPLACE ME"
+      secure: "Rerun 'travis encrypt --pro abcdefg' on the real org token and place the results here."
 
 install:
   - GO111MODULE=on go mod vendor
