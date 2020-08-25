@@ -21,7 +21,7 @@ addons:
 install:
   - GO111MODULE=on go mod vendor
 
-# default name is 'test'
+# default stage name is 'test'
 
 script:
   - if [ -n "$(gofmt -s -l . | grep -v "vendor")" ]; then diff -u <(echo -n) <(gofmt -d $(gofmt -s -l . | grep -v "vendor")); fi
