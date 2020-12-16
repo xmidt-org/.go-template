@@ -1,0 +1,26 @@
+FROM golang:alpine as builder
+MAINTAINER Jack Murdock <jack_murdock@comcast.com>
+
+WORKDIR /go/src/github.com/xmidt-org/__PROJECT__
+ARG VERSION=undefined
+ARG GITCOMMIT=undefined
+ARG BUILDTIME=undefined
+
+RUN apk add --update git curl
+
+COPY . .
+RUN go build \
+  -o __PROJECT___linux_amd64 \
+  -ldflags "-X 'main.BuildTime=${BUILDTIME}' -X main.GitCommit=${GITCOMMIT} -X main.Version=${VERSION}"
+
+FROM alpine
+
+RUN apk --no-cache add ca-certificates
+RUN mkdir -p /etc/__PROJECT__
+VOLUME /etc/__PROJECT__
+
+EXPOSE 8080
+
+COPY --from=builder /go/src/github.com/xmidt-org/__PROJECT__/__PROJECT___linux_amd64 /
+COPY __PROJECT__.yaml /
+ENTRYPOINT ["/__PROJECT___linux_amd64"]
