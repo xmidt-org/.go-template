@@ -13,6 +13,7 @@ __PROJECT__ does something good.
 ## Setup
 
 1. Search and replace __PROJECT__ with your project name.
+1. Initialize `go.mod` file: `go mod init github.com/xmidt-org/__PROJECT__`
 1. Add org teams to project (Settings > Manage Access): 
     - xmidt-org/admins with Admin role
     - xmidt-org/server-writers with Write role
