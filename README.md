@@ -2,7 +2,7 @@
 
 __PROJECT__ does something good.
 
-[![Build Status](https://travis-ci.com/xmidt-org/__PROJECT__.svg?branch=main)](https://travis-ci.com/xmidt-org/__PROJECT__)
+[![Build Status](https://github.com/xmidt-org/__PROJECT__/workflows/CI/badge.svg)](https://github.com/xmidt-org/__PROJECT__/actions)
 [![codecov.io](http://codecov.io/github/xmidt-org/__PROJECT__/coverage.svg?branch=main)](http://codecov.io/github/xmidt-org/__PROJECT__?branch=main)
 [![Go Report Card](https://goreportcard.com/badge/github.com/xmidt-org/__PROJECT__)](https://goreportcard.com/report/github.com/xmidt-org/__PROJECT__)
 [![Apache V2 License](http://img.shields.io/badge/license-Apache%20V2-blue.svg)](https://github.com/xmidt-org/__PROJECT__/blob/main/LICENSE)
