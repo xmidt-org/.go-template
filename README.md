@@ -43,7 +43,7 @@ Summary should be a small paragraph explanation of what this project does.
 
 ## Code of Conduct
 
-This project and everyone participating in it are governed by the [XMiDT Code Of Conduct](https://xmidt.io/code_of_conduct/). 
+This project and everyone participating in it are governed by the [XMiDT Code Of Conduct](https://xmidt.io/docs/community/code_of_conduct/). 
 By participating, you agree to this Code.
 
 ## Details
