@@ -1,0 +1,37 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: __PROJECT__
+Upstream-Contact: Owner <owner@example.com>
+Source: https://github.com/xmidt-org/__PROJECT__
+
+Files: NOTICE
+Copyright: SPDX-FileCopyrightText: 2022 Comcast Cable Communications Management, LLC
+License: Apache-2.0
+
+Files: .gitignore
+Copyright: SPDX-FileCopyrightText: 2022 Comcast Cable Communications Management, LLC
+License: Apache-2.0
+
+Files: .whitesource
+Copyright: SPDX-FileCopyrightText: 2022 Comcast Cable Communications Management, LLC
+License: Apache-2.0
+
+Files: CONTRIBUTING.md
+Copyright: SPDX-FileCopyrightText: 2022 Comcast Cable Communications Management, LLC
+License: Apache-2.0
+
+Files: MAINTAINERS.md
+Copyright: SPDX-FileCopyrightText: 2022 Comcast Cable Communications Management, LLC
+License: Apache-2.0
+
+Files: README.md
+Copyright: SPDX-FileCopyrightText: 2022 Comcast Cable Communications Management, LLC
+License: Apache-2.0
+
+Files: go.mod
+Copyright: SPDX-FileCopyrightText: 2022 Comcast Cable Communications Management, LLC
+License: Apache-2.0
+
+Files: go.sum
+Copyright: SPDX-FileCopyrightText: 2022 Comcast Cable Communications Management, LLC
+License: Apache-2.0
+
